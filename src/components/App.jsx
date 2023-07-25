@@ -1,16 +1,20 @@
+import example from '../example.json';
+import { GlobalStyle } from './GlobalStyles';
+import { MessageArea } from './MessageArea/MessageArea';
+// console.log(example.username)
+  example.comments.map(ex => console.log(ex.user))
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <GlobalStyle>
+       
+      {example.comments.map(ex =>
+       <MessageArea 
+       postId={ex.postId}
+       user={ex.user} 
+       body={ex.body}/>
+      )}
+    
+    </GlobalStyle>
   );
 };
