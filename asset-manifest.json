@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kirill25460/chat-pics.io.git/static/css/main.b5320759.css",
-    "main.js": "/kirill25460/chat-pics.io.git/static/js/main.a2601320.js",
-    "index.html": "/kirill25460/chat-pics.io.git/index.html",
-    "main.b5320759.css.map": "/kirill25460/chat-pics.io.git/static/css/main.b5320759.css.map",
-    "main.a2601320.js.map": "/kirill25460/chat-pics.io.git/static/js/main.a2601320.js.map"
+    "main.css": "/chat-pics.io/static/css/main.b5320759.css",
+    "main.js": "/chat-pics.io/static/js/main.6685224d.js",
+    "index.html": "/chat-pics.io/index.html",
+    "main.b5320759.css.map": "/chat-pics.io/static/css/main.b5320759.css.map",
+    "main.6685224d.js.map": "/chat-pics.io/static/js/main.6685224d.js.map"
   },
   "entrypoints": [
     "static/css/main.b5320759.css",
-    "static/js/main.a2601320.js"
+    "static/js/main.6685224d.js"
   ]
 }
